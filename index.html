@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Member Team</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header, footer {
+      background-color: antiquewhite;
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+    h1{
+        background-color: rgb(152, 152, 242);
+        width: 30%;
+        margin-left: 500px;
+        border: 2px solid burlywood;
+        border-radius: 5px;
+        box-shadow:rgb(232, 232, 235);
+    }
+    
+    section {
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .container h2{
+        background-color: aquamarine;
+        width: 20%;
+        border-bottom: 0.5px solid rgb(152, 192, 33);
+    }
+    /* Team member card */
+    .member {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .member .card {
+      width: 300px;
+      margin: 10px;
+      border: 1px solid #050505;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    .member .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 80px;
+      margin-bottom: 10px;
+    }
+    /* Responsive styles */
+    @media only screen and (max-width: 768px) {
+      .member .card {
+        width: calc(50% - 20px);
+      }
+    }
+    @media only screen and (max-width: 480px) {
+      .member .card {
+        width: calc(100% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Company Member Team</h1>
+    <h2>Welcome To Our Team</h2>
+    <p>Welcome to our office team, where collaboration thrives and excellence is our standard.<br> With diverse backgrounds and shared dedication, we tackle challenges with innovation and determination.<br> Together, we strive to exceed expectations and create meaningful impact in all that we do.</p>
+  </header>
+  
+  <section id="leadership">
+    <div class="container">
+      <h2>Leadership Team</h2>
+      <div class="member">
+        <div class="card">
+          <img src="image/img3.jpg" alt="Leader 1">
+          <h3>John Doe</h3>
+          <p>CEO</p>
+        </div>
+        <div class="card">
+          <img src="image/img2.jpg" alt="Leader 2">
+          <h3>Jane Smith</h3>
+          <p>COO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="development">
+    <div class="container">
+      <h2>Development Team</h2>
+      <div class="member">
+        <div class="card">
+          <img src="image/img4.jpg" alt="Developer 1">
+          <h3>Michael Johnson</h3>
+          <p>Lead Developer</p>
+        </div>
+        <div class="card">
+          <img src="image/img5.jpg" alt="Developer 2">
+          <h3>Sarah Lee</h3>
+          <p>Frontend Developer</p>
+        </div>
+        <div class="card">
+            <img src="image/img1.jpg" alt="Developer 2">
+            <h3>Luice Doe</h3>
+            <p>Backend Developer</p>
+        </div>
+        <div class="card">
+            <img src="image/img5.jpg" alt="Developer 2">
+            <h3>Sarah Lee</h3>
+            <p>Software Engineer</p>
+        </div>
+        <div class="card">
+            <img src="image/img5.jpg" alt="Developer 2">
+            <h3>Sarah Lee</h3>
+            <p>Frontend Developer</p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sales">
+    <div class="container">
+      <h2>Sales Team</h2>
+      <div class="member">
+        <div class="card">
+          <img src="image/img6.jpg" alt="Salesperson 1">
+          <h3>David Johnson</h3>
+          <p>Sales Manager</p>
+        </div>
+        <div class="card">
+          <img src="image/img7.jpg" alt="Salesperson 2">
+          <h3>Emily White</h3>
+          <p>Team Lead</p>
+        </div>
+        <div class="card">
+            <img src="image/img7.jpg" alt="Salesperson 2">
+            <h3>Emily White</h3>
+            <p>Sales Representative</p>
+        </div>
+        <div class="card">
+            <img src="image/img7.jpg" alt="Salesperson 2">
+            <h3>Emily White</h3>
+            <p>Sales Officer</p>
+        </div>
+        <div class="card">
+            <img src="image/img7.jpg" alt="Salesperson 2">
+            <h3>Emily White</h3>
+            <p>Markating Officer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Company Member Team</p>
+  </footer>
+</body>
+</html>
+
